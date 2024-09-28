@@ -1,31 +1,43 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Diagnostics;
 
 namespace CardMatchingGame
 {
-    public class Game1 : Game
+    public class CardMatchingGame : Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private GameManager _gameManager;
 
-        public Game1()
+        public CardMatchingGame()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            _graphics.PreferredBackBufferWidth = 3440;
+            _graphics.PreferredBackBufferHeight = 1440;
+            _graphics.IsFullScreen = true;
             IsMouseVisible = true;
+
         }
 
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            Debug.WriteLine("initialized");
             base.Initialize();
+
         }
 
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+            Globals.Content = Content;
+            Globals.SpriteBatch = _spriteBatch;
+            _gameManager = new GameManager();
+
+            Debug.WriteLine("Content loaded");
 
             // TODO: use this.Content to load your game content here
         }
@@ -45,6 +57,10 @@ namespace CardMatchingGame
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            _spriteBatch.Begin();
+            _gameManager.Draw();
+            _spriteBatch.End();
+
 
             base.Draw(gameTime);
         }

@@ -1,3 +1,3 @@
 ﻿
-using var game = new CardMatchingGame.Game1();
+using var game = new CardMatchingGame.CardMatchingGame();
 game.Run();
