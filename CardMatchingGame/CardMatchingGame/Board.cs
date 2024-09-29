@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using CardMatchingGame.Managers;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
@@ -17,13 +18,13 @@ namespace CardMatchingGame
         public List<Card> Cards { get; } = new List<Card>();
         public Board()
         {
-            var back = Globals.Content.Load<Texture2D>("Cards/card_back");
+            var back = Globals.Content.Load<Texture2D>("Art/Cards/card_back");
             var cardDistance = back.Width+CARD_SPACING;
             const int CARD_COUNT = CARDS_PER_DIM * CARDS_PER_DIM;
             Texture2D[] textureFrontArray = new Texture2D[CARD_COUNT / 2];
             for (int j = 0; j < CARD_COUNT / 2; j++)
             {
-                textureFrontArray[j] = Globals.Content.Load<Texture2D>($"Cards/cards_front/{j+1}");
+                textureFrontArray[j] = Globals.Content.Load<Texture2D>($"Art/Cards/cards_front/{j+1}");
             }
             for (int i = 0; i < CARD_COUNT; i++)
             {
@@ -41,6 +42,15 @@ namespace CardMatchingGame
                 int j = random.Next(i+1);
                 (Cards[j].CardPosition, Cards[i].CardPosition) = (Cards[i].CardPosition, Cards[j].CardPosition);
             }
+        }
+        public Card GetClickedCard()
+        {
+            if (!InputManager.MouseClicked) return null;
+            foreach (Card card in Cards)
+            {
+                if(card.CardRectangle.Intersects(InputManager.MouseRectangle)) return card;
+            }
+            return null;
         }
         public void Draw()
         {

@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using CardMatchingGame.Managers;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace CardMatchingGame
         private readonly Texture2D _textureFront;
         private Texture2D _activeTexture;
         private bool _cardIsFlipped;
+        public Rectangle CardRectangle => new Rectangle((int)CardPosition.X, (int)CardPosition.Y,_activeTexture.Width,_activeTexture.Height);
         public Vector2 CardPosition { get; set; }
         public Card(Texture2D textureBack,Texture2D textureFront, Vector2 position)
         {
@@ -21,13 +23,13 @@ namespace CardMatchingGame
             _textureFront = textureFront;
             CardPosition = position;
             _activeTexture = _textureBack;
-            Flip();
         }
         public void Flip()
         {
             _cardIsFlipped = !_cardIsFlipped;
             _activeTexture = _cardIsFlipped ? _textureFront : _textureBack;
         }
+        
         public void Draw()
         {
             Globals.SpriteBatch.Draw(_activeTexture,CardPosition,Color.White);

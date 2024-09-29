@@ -20,6 +20,7 @@ namespace CardMatchingGame
             _graphics.PreferredBackBufferHeight = 1440;
             _graphics.IsFullScreen = true;
             IsMouseVisible = true;
+            
 
         }
 
@@ -47,8 +48,8 @@ namespace CardMatchingGame
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-
             // TODO: Add your update logic here
+            _gameManager.Update();
 
             base.Update(gameTime);
         }

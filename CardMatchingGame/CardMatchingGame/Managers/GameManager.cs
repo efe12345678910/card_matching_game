@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +18,15 @@ namespace CardMatchingGame.Managers
         public void Draw()
         {
             _board.Draw();
+        }
+        public void Update()
+        {
+            InputManager.Update();
+            var clickedCard = _board.GetClickedCard();
+            if (clickedCard != null)
+            {
+                clickedCard.Flip();
+            }
         }
     }
 }
