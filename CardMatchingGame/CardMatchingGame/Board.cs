@@ -19,12 +19,17 @@ namespace CardMatchingGame
         {
             var back = Globals.Content.Load<Texture2D>("Cards/card_back");
             var cardDistance = back.Width+CARD_SPACING;
-            const int _cardCount = CARDS_PER_DIM * CARDS_PER_DIM;
-            for (int i = 0; i < _cardCount; i++)
+            const int CARD_COUNT = CARDS_PER_DIM * CARDS_PER_DIM;
+            Texture2D[] textureFrontArray = new Texture2D[CARD_COUNT / 2];
+            for (int j = 0; j < CARD_COUNT / 2; j++)
+            {
+                textureFrontArray[j] = Globals.Content.Load<Texture2D>($"Cards/cards_front/{j+1}");
+            }
+            for (int i = 0; i < CARD_COUNT; i++)
             {
                 var x = (cardDistance*(i%CARDS_PER_DIM) + BOARD_PADDING);
                 var y = (cardDistance * (i / CARDS_PER_DIM) + BOARD_PADDING);
-                Cards.Add(new Card(back,new Vector2(x,y)));
+                Cards.Add(new Card(back, textureFrontArray[i/2],new Vector2(x,y)));
             }
         }
         public void Draw()

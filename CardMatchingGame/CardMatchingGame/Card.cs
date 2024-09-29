@@ -11,15 +11,26 @@ namespace CardMatchingGame
     internal class Card
     {
         private readonly Texture2D _textureBack;
+        private readonly Texture2D _textureFront;
+        private Texture2D _activeTexture;
+        private bool _cardIsFlipped;
         public Vector2 CardPosition { get; set; }
-        public Card(Texture2D textureBack, Vector2 position)
+        public Card(Texture2D textureBack,Texture2D textureFront, Vector2 position)
         {
             _textureBack = textureBack;
+            _textureFront = textureFront;
             CardPosition = position;
+            _activeTexture = _textureBack;
+            Flip();
+        }
+        public void Flip()
+        {
+            _cardIsFlipped = !_cardIsFlipped;
+            _activeTexture = _cardIsFlipped ? _textureFront : _textureBack;
         }
         public void Draw()
         {
-            Globals.SpriteBatch.Draw(_textureBack,CardPosition,Color.White);
+            Globals.SpriteBatch.Draw(_activeTexture,CardPosition,Color.White);
         }
     }
 }
