@@ -31,6 +31,16 @@ namespace CardMatchingGame
                 var y = (cardDistance * (i / CARDS_PER_DIM) + BOARD_PADDING);
                 Cards.Add(new Card(back, textureFrontArray[i/2],new Vector2(x,y)));
             }
+            Shuffle();
+        }
+        public void Shuffle()
+        {
+            Random random = new Random();
+            for (int i = Cards.Count - 1; i > 0; i--)
+            {
+                int j = random.Next(i+1);
+                (Cards[j].CardPosition, Cards[i].CardPosition) = (Cards[i].CardPosition, Cards[j].CardPosition);
+            }
         }
         public void Draw()
         {
