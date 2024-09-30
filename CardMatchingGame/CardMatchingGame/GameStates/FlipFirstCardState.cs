@@ -11,7 +11,11 @@ namespace CardMatchingGame.GameStates
     {
         public override void Update(GameManager gameManager)
         {
-            throw new NotImplementedException();
+            var clickedCard = gameManager.Board.GetClickedCard();
+            if (clickedCard != null)
+            {
+                clickedCard.Flip();
+            }
         }
     }
 }

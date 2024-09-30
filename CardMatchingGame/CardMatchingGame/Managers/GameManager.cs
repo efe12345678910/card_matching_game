@@ -5,28 +5,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using CardMatchingGame.GameStates;
 namespace CardMatchingGame.Managers
 {
     internal class GameManager
     {
-        private readonly Board _board;
+        public Board Board { get; }
+        private GameState _gameState; 
         public GameManager()
         {
-            _board = new Board();
+            Board = new Board();
+            _gameState = new FlipFirstCardState();
+        }
+        public void ChangeGameState(GameState gameState)
+        {
+            if (gameState != null)
+            {
+                _gameState = gameState;
+            }
         }
         public void Draw()
         {
-            _board.Draw();
+            Board.Draw();
         }
         public void Update()
         {
             InputManager.Update();
-            var clickedCard = _board.GetClickedCard();
-            if (clickedCard != null)
-            {
-                clickedCard.Flip();
-            }
+            _gameState.Update(this);
         }
     }
 }
