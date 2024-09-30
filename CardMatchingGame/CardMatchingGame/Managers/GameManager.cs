@@ -21,17 +21,14 @@ namespace CardMatchingGame.Managers
             _gameState = new FlipFirstCardState();
             Restart();
         }
-        public void ChangeGameState(GameState gameState)
+        public void ChangeGameState(GameStateEnum gameState)
         {
-            if (gameState != null)
-            {
-                _gameState = gameState;
-            }
+            _gameState = GameStateManager.States[gameState];
         }
         public void Restart()
         {
             Board.ResetBoard();
-            ChangeGameState(new FlipFirstCardState());
+            ChangeGameState(GameStateEnum.FlipFirstCard);
         }
         public void Draw()
         {

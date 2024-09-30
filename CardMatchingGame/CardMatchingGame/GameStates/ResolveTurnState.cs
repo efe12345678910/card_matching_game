@@ -25,11 +25,11 @@ namespace CardMatchingGame.GameStates
                 }
                 if (gameManager.Board.CardsLeft <= 0)
                 {
-                    gameManager.ChangeGameState(new WinState());
+                    gameManager.ChangeGameState(GameStateEnum.Win);
                 }
                 else
                 {
-                    gameManager.ChangeGameState(new FlipFirstCardState());
+                    gameManager.ChangeGameState(GameStateEnum.FlipFirstCard);
                 }
             }
         }

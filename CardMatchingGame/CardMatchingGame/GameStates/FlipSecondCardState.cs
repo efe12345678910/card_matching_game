@@ -16,7 +16,7 @@ namespace CardMatchingGame.GameStates
             {
                 clickedCard.Flip();
                 gameManager.SecondCardSelected = clickedCard;
-                gameManager.ChangeGameState(new ResolveTurnState());
+                gameManager.ChangeGameState(GameStateEnum.ResolveTurn);
             }
         }
     }

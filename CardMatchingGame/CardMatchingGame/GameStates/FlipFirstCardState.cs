@@ -17,7 +17,7 @@ namespace CardMatchingGame.GameStates
             {
                 clickedCard.Flip();
                 gameManager.FirstCardSelected = clickedCard;
-                gameManager.ChangeGameState(new FlipSecondCardState());
+                gameManager.ChangeGameState(GameStateEnum.FlipSecondCard);
             }
         }
     }
