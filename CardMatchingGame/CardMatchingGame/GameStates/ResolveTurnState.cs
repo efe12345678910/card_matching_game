@@ -11,7 +11,21 @@ namespace CardMatchingGame.GameStates
     {
         public override void Update(GameManager gameManager)
         {
-            throw new NotImplementedException();
+            if (InputManager.MouseClicked)
+            {
+                if (gameManager.FirstCardSelected.ID == gameManager.SecondCardSelected.ID)
+                {
+                    gameManager.FirstCardSelected.Visible = false;
+                    gameManager.SecondCardSelected.Visible = false; 
+                }
+                //meaning;matching attempt failed 
+                else
+                {
+                    gameManager.FirstCardSelected.Flip();
+                    gameManager.SecondCardSelected.Flip();
+                }
+                gameManager.ChangeGameState(new FlipFirstCardState());
+            }
         }
     }
 }

@@ -6,12 +6,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CardMatchingGame.GameStates;
+using System.Diagnostics;
 namespace CardMatchingGame.Managers
 {
     internal class GameManager
     {
         public Board Board { get; }
         private GameState _gameState; 
+        public Card FirstCardSelected { get; set; }
+        public Card SecondCardSelected { get; set; }
         public GameManager()
         {
             Board = new Board();
@@ -32,6 +35,7 @@ namespace CardMatchingGame.Managers
         {
             InputManager.Update();
             _gameState.Update(this);
+            Debug.WriteLine($"first card: {FirstCardSelected?.ID}\nsecond card: {SecondCardSelected?.ID}");
         }
     }
 }

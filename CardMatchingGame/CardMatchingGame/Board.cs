@@ -30,7 +30,7 @@ namespace CardMatchingGame
             {
                 var x = (cardDistance*(i%CARDS_PER_DIM) + BOARD_PADDING);
                 var y = (cardDistance * (i / CARDS_PER_DIM) + BOARD_PADDING);
-                Cards.Add(new Card(back, textureFrontArray[i/2],new Vector2(x,y)));
+                Cards.Add(new Card(i/2,back, textureFrontArray[i/2],new Vector2(x,y)));
             }
             Shuffle();
         }
@@ -45,9 +45,11 @@ namespace CardMatchingGame
         }
         public Card GetClickedCard()
         {
+            
             if (!InputManager.MouseClicked) return null;
             foreach (Card card in Cards)
             {
+                if(!card.Visible) continue;
                 if(card.CardRectangle.Intersects(InputManager.MouseRectangle)) return card;
             }
             return null;

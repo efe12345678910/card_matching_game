@@ -11,7 +11,13 @@ namespace CardMatchingGame.GameStates
     {
         public override void Update(GameManager gameManager)
         {
-            throw new NotImplementedException();
+            var clickedCard = gameManager.Board.GetClickedCard();
+            if (clickedCard != null && clickedCard != gameManager.FirstCardSelected)
+            {
+                clickedCard.Flip();
+                gameManager.SecondCardSelected = clickedCard;
+                gameManager.ChangeGameState(new ResolveTurnState());
+            }
         }
     }
 }
