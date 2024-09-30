@@ -19,6 +19,7 @@ namespace CardMatchingGame.Managers
         {
             Board = new Board();
             _gameState = new FlipFirstCardState();
+            Restart();
         }
         public void ChangeGameState(GameState gameState)
         {
@@ -26,6 +27,11 @@ namespace CardMatchingGame.Managers
             {
                 _gameState = gameState;
             }
+        }
+        public void Restart()
+        {
+            Board.ResetBoard();
+            ChangeGameState(new FlipFirstCardState());
         }
         public void Draw()
         {
@@ -35,6 +41,10 @@ namespace CardMatchingGame.Managers
         {
             InputManager.Update();
             _gameState.Update(this);
+            if (InputManager.MouseRightClicked)
+            {
+                Restart();
+            }
             Debug.WriteLine($"first card: {FirstCardSelected?.ID}\nsecond card: {SecondCardSelected?.ID}");
         }
     }

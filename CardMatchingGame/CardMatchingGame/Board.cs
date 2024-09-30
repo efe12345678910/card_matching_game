@@ -45,6 +45,15 @@ namespace CardMatchingGame
                 (Cards[j].CardPosition, Cards[i].CardPosition) = (Cards[i].CardPosition, Cards[j].CardPosition);
             }
         }
+        public void ResetBoard()
+        {
+            foreach (Card card in Cards)
+            {
+                card.Visible = true;
+                if (card.IsCardFlipped) card.Flip();
+            }
+            Shuffle();
+        }
         public Card GetClickedCard()
         {
             
