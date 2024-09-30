@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CardMatchingGame.GameStates
 {
-    internal class ResolveTurnState : GameState
+    internal class ResolveTurnState : PlayState
     {
         public override void Update(GameManager gameManager)
         {

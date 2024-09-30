@@ -35,7 +35,7 @@ namespace CardMatchingGame.Managers
         }
         public void Draw()
         {
-            Board.Draw();
+            _gameState.Draw(this);
         }
         public void Update()
         {
@@ -45,7 +45,6 @@ namespace CardMatchingGame.Managers
             {
                 Restart();
             }
-            Debug.WriteLine($"first card: {FirstCardSelected?.ID}\nsecond card: {SecondCardSelected?.ID}");
         }
     }
 }

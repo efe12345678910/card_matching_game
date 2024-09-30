@@ -1,13 +1,14 @@
 ﻿using CardMatchingGame.Managers;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CardMatchingGame.GameStates
 {
-    internal class FlipFirstCardState : GameState
+    internal class FlipFirstCardState : PlayState
     {
         public override void Update(GameManager gameManager)
         {

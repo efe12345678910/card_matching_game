@@ -10,5 +10,6 @@ namespace CardMatchingGame.GameStates
     internal abstract class GameState
     {
         public abstract void Update(GameManager gameManager);
+        public abstract void Draw(GameManager gameManager);
     }
 }
