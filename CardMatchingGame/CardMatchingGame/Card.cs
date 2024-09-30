@@ -28,6 +28,7 @@ namespace CardMatchingGame
             _activeTexture = _textureBack;
             Visible = true;
         }
+        
         public void Flip()
         {
             IsCardFlipped = !IsCardFlipped;

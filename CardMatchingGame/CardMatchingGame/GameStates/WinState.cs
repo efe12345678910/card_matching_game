@@ -18,7 +18,7 @@ namespace CardMatchingGame.GameStates
         private static Rectangle _window;
         public WinState()
         {
-            _texture = Globals.Content.Load<Texture2D>("trophy");
+            _texture = Globals.Content.Load<Texture2D>("Art/trophy");
             _window = Globals.SpriteBatch.GraphicsDevice.PresentationParameters.Bounds;
             _position = new Microsoft.Xna.Framework.Vector2((_window.Width - _texture.Width) / 2, (_window.Height - _texture.Height) / 2);
         }

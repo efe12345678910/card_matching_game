@@ -15,6 +15,7 @@ namespace CardMatchingGame
         private const int CARDS_PER_DIM = 4;
         private const int CARD_SPACING = 10;
         public List<Card> Cards { get; } = new List<Card>();
+        public int CardsLeft { get; private set; }
         public Board()
         {
             var back = Globals.Content.Load<Texture2D>("Art/Cards/card_back");
@@ -23,6 +24,7 @@ namespace CardMatchingGame
             Point boardSize = new Point((cardDistance.X*CARDS_PER_DIM)-CARD_SPACING,(cardDistance.Y*CARDS_PER_DIM)-CARD_SPACING);
             Point boardSpacing = new Point((window.Width-boardSize.X)/2,(window.Height-boardSize.Y)/2);
             const int CARD_COUNT = CARDS_PER_DIM * CARDS_PER_DIM;
+            CardsLeft = Cards.Count;
             Texture2D[] textureFrontArray = new Texture2D[CARD_COUNT / 2];
             for (int j = 0; j < CARD_COUNT / 2; j++)
             {
@@ -45,6 +47,12 @@ namespace CardMatchingGame
                 (Cards[j].CardPosition, Cards[i].CardPosition) = (Cards[i].CardPosition, Cards[j].CardPosition);
             }
         }
+        public void Collect(Card c1, Card c2)
+        {
+            c1.Visible = false;
+            c2.Visible = false;
+            CardsLeft -= 2;
+        }
         public void ResetBoard()
         {
             foreach (Card card in Cards)
@@ -53,6 +61,7 @@ namespace CardMatchingGame
                 if (card.IsCardFlipped) card.Flip();
             }
             Shuffle();
+            CardsLeft= Cards.Count;
         }
         public Card GetClickedCard()
         {

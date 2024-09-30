@@ -15,8 +15,7 @@ namespace CardMatchingGame.GameStates
             {
                 if (gameManager.FirstCardSelected.ID == gameManager.SecondCardSelected.ID)
                 {
-                    gameManager.FirstCardSelected.Visible = false;
-                    gameManager.SecondCardSelected.Visible = false; 
+                    gameManager.Board.Collect(gameManager.FirstCardSelected,gameManager.SecondCardSelected);
                 }
                 //meaning;matching attempt failed 
                 else
@@ -24,7 +23,14 @@ namespace CardMatchingGame.GameStates
                     gameManager.FirstCardSelected.Flip();
                     gameManager.SecondCardSelected.Flip();
                 }
-                gameManager.ChangeGameState(new FlipFirstCardState());
+                if (gameManager.Board.CardsLeft <= 0)
+                {
+                    gameManager.ChangeGameState(new WinState());
+                }
+                else
+                {
+                    gameManager.ChangeGameState(new FlipFirstCardState());
+                }
             }
         }
     }

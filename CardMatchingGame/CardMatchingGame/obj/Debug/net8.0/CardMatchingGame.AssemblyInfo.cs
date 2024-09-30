@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CardMatchingGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86913f9fe1044c61d3875c5879880fc964fd7684")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7edb1a3f9b6d0032576ebeb9a19c9f5a5b3ba401")]
 [assembly: System.Reflection.AssemblyProductAttribute("CardMatchingGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CardMatchingGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
