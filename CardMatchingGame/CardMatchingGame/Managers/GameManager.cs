@@ -28,6 +28,7 @@ namespace CardMatchingGame.Managers
         public void Restart()
         {
             Board.ResetBoard();
+            ScoreManager.Reset();
             ChangeGameState(GameStateEnum.FlipFirstCard);
         }
         public void Draw()
@@ -37,11 +38,12 @@ namespace CardMatchingGame.Managers
         public void Update()
         {
             InputManager.Update();
-            _gameState.Update(this);
-            if (InputManager.MouseRightClicked)
+            ScoreManager.Update();
+            if (InputManager.MouseRightClicked||ScoreManager.TurnTimeLeft <= 0)
             {
                 Restart();
             }
+            _gameState.Update(this);
         }
     }
 }

@@ -16,16 +16,19 @@ namespace CardMatchingGame.GameStates
                 if (gameManager.FirstCardSelected.ID == gameManager.SecondCardSelected.ID)
                 {
                     gameManager.Board.Collect(gameManager.FirstCardSelected,gameManager.SecondCardSelected);
+                    ScoreManager.NextTurn();
                 }
                 //meaning;matching attempt failed 
                 else
                 {
                     gameManager.FirstCardSelected.Flip();
                     gameManager.SecondCardSelected.Flip();
+                    ScoreManager.Miss();
                 }
                 if (gameManager.Board.CardsLeft <= 0)
                 {
                     gameManager.ChangeGameState(GameStateEnum.Win);
+                    ScoreManager.Stop();
                 }
                 else
                 {

@@ -18,6 +18,7 @@ namespace CardMatchingGame.GameStates
                 clickedCard.Flip();
                 gameManager.FirstCardSelected = clickedCard;
                 gameManager.ChangeGameState(GameStateEnum.FlipSecondCard);
+                ScoreManager.Start();
             }
         }
     }

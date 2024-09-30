@@ -16,6 +16,7 @@ namespace CardMatchingGame.GameStates
         public override void Draw(GameManager gameManager)
         {
             gameManager.Board.Draw();
+            ScoreManager.Draw();
         }
     }
 }
