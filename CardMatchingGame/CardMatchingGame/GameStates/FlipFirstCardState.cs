@@ -12,6 +12,7 @@ namespace CardMatchingGame.GameStates
     {
         public override void Update(GameManager gameManager)
         {
+            base.Update(gameManager);
             var clickedCard = gameManager.Board.GetClickedCard();
             if (clickedCard != null)
             {

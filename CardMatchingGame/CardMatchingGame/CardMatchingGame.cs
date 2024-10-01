@@ -50,6 +50,7 @@ namespace CardMatchingGame
                 Exit();
             // TODO: Add your update logic here
             _gameManager.Update();
+            Globals.Update(gameTime);
 
             base.Update(gameTime);
         }

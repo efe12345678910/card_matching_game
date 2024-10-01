@@ -22,7 +22,7 @@ namespace CardMatchingGame
             var window = Globals.SpriteBatch.GraphicsDevice.PresentationParameters.Bounds;
             Point cardDistance = new Point(back.Width+CARD_SPACING,back.Height+CARD_SPACING);
             Point boardSize = new Point((cardDistance.X*CARDS_PER_DIM)-CARD_SPACING,(cardDistance.Y*CARDS_PER_DIM)-CARD_SPACING);
-            Point boardSpacing = new Point((window.Width-boardSize.X)/2,(window.Height-boardSize.Y)/2);
+            Point boardSpacing = new Point((window.Width-boardSize.X+back.Width)/2,(window.Height-boardSize.Y+back.Height)/2);
             const int CARD_COUNT = CARDS_PER_DIM * CARDS_PER_DIM;
             CardsLeft = Cards.Count;
             Texture2D[] textureFrontArray = new Texture2D[CARD_COUNT / 2];
@@ -55,13 +55,12 @@ namespace CardMatchingGame
         }
         public void ResetBoard()
         {
+            CardsLeft = CARDS_PER_DIM*CARDS_PER_DIM;
             foreach (Card card in Cards)
             {
-                card.Visible = true;
-                if (card.IsCardFlipped) card.Flip();
+                card.Reset();
             }
             Shuffle();
-            CardsLeft= Cards.Count;
         }
         public Card GetClickedCard()
         {
@@ -69,7 +68,7 @@ namespace CardMatchingGame
             if (!InputManager.MouseClicked) return null;
             foreach (Card card in Cards)
             {
-                if(!card.Visible) continue;
+                if(!card.Visible || card.IsFlipping) continue;
                 if(card.CardRectangle.Intersects(InputManager.MouseRectangle)) return card;
             }
             return null;
@@ -79,6 +78,13 @@ namespace CardMatchingGame
             foreach (var card in Cards)
             {
                 card.Draw();
+            }
+        }
+        public void Update()
+        {
+            foreach (Card card in Cards)
+            {
+                card.Update();
             }
         }
     }

@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\gamestates\\winstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\gamestates\\winstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\cardmatchinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\cardmatchinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\gamestates\\resolveturnstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\gamestates\\resolveturnstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\gamestates\\flipsecondcardstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\gamestates\\flipsecondcardstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\gamestates\\playstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\gamestates\\playstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\gamestates\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\gamestates\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\gamestates\\flipfirstcardstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\gamestates\\flipfirstcardstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\managers\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\managers\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\gamestates\\flipfirstcardstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\gamestates\\flipfirstcardstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\gamestates\\resolveturnstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\gamestates\\resolveturnstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\gamestates\\playstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\gamestates\\playstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,33 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\managers\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\managers\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efebe\\AppData\\Local\\Temp\\.vsdbgsrc\\df651411cde51e0ab6527bac2888138b8cf5313157f39cc092ecd8980762a5fb\\ContentManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\cardmatchinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\cardmatchinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|c:\\kod\\monogame_kodlarim\\card_matching_game\\cardmatchinggame\\cardmatchinggame\\cardmatchinggame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D19B057D-ADF6-4EFB-AB9B-0F01FFE6AFE4}|CardMatchingGame\\CardMatchingGame.csproj|solutionrelative:cardmatchinggame\\cardmatchinggame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -77,227 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ScoreManager.cs",
-              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Managers\\ScoreManager.cs",
-              "RelativeDocumentMoniker": "CardMatchingGame\\Managers\\ScoreManager.cs",
-              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Managers\\ScoreManager.cs",
-              "RelativeToolTip": "CardMatchingGame\\Managers\\ScoreManager.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAA7wEIAAAB2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:43:38.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Enums.cs",
-              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Enums.cs",
-              "RelativeDocumentMoniker": "CardMatchingGame\\Enums.cs",
-              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Enums.cs",
-              "RelativeToolTip": "CardMatchingGame\\Enums.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T13:06:24.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameStateManager.cs",
-              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Managers\\GameStateManager.cs",
-              "RelativeDocumentMoniker": "CardMatchingGame\\Managers\\GameStateManager.cs",
-              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Managers\\GameStateManager.cs",
-              "RelativeToolTip": "CardMatchingGame\\Managers\\GameStateManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T13:05:41.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ContentManager.cs",
-              "DocumentMoniker": "C:\\Users\\efebe\\AppData\\Local\\Temp\\.vsdbgsrc\\df651411cde51e0ab6527bac2888138b8cf5313157f39cc092ecd8980762a5fb\\ContentManager.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\efebe\\AppData\\Local\\Temp\\.vsdbgsrc\\df651411cde51e0ab6527bac2888138b8cf5313157f39cc092ecd8980762a5fb\\ContentManager.cs",
-              "ToolTip": "C:\\Users\\efebe\\AppData\\Local\\Temp\\.vsdbgsrc\\df651411cde51e0ab6527bac2888138b8cf5313157f39cc092ecd8980762a5fb\\ContentManager.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\..\\Users\\efebe\\AppData\\Local\\Temp\\.vsdbgsrc\\df651411cde51e0ab6527bac2888138b8cf5313157f39cc092ecd8980762a5fb\\ContentManager.cs [Read Only]",
-              "ViewState": "AgIAANgAAAAAAAAAAAAqwOMAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:52:29.872Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WinState.cs",
-              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\WinState.cs",
-              "RelativeDocumentMoniker": "CardMatchingGame\\GameStates\\WinState.cs",
-              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\WinState.cs",
-              "RelativeToolTip": "CardMatchingGame\\GameStates\\WinState.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBcAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T11:52:02.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayState.cs",
-              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\PlayState.cs",
-              "RelativeDocumentMoniker": "CardMatchingGame\\GameStates\\PlayState.cs",
-              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\PlayState.cs",
-              "RelativeToolTip": "CardMatchingGame\\GameStates\\PlayState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T11:43:39.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameState.cs",
-              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\GameState.cs",
-              "RelativeDocumentMoniker": "CardMatchingGame\\GameStates\\GameState.cs",
-              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\GameState.cs",
-              "RelativeToolTip": "CardMatchingGame\\GameStates\\GameState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T11:42:42.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResolveTurnState.cs",
-              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\ResolveTurnState.cs",
-              "RelativeDocumentMoniker": "CardMatchingGame\\GameStates\\ResolveTurnState.cs",
-              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\ResolveTurnState.cs",
-              "RelativeToolTip": "CardMatchingGame\\GameStates\\ResolveTurnState.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:31:28.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FlipSecondCardState.cs",
-              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\FlipSecondCardState.cs",
-              "RelativeDocumentMoniker": "CardMatchingGame\\GameStates\\FlipSecondCardState.cs",
-              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\FlipSecondCardState.cs",
-              "RelativeToolTip": "CardMatchingGame\\GameStates\\FlipSecondCardState.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBIAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:13:13.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FlipFirstCardState.cs",
-              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\FlipFirstCardState.cs",
-              "RelativeDocumentMoniker": "CardMatchingGame\\GameStates\\FlipFirstCardState.cs",
-              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\FlipFirstCardState.cs",
-              "RelativeToolTip": "CardMatchingGame\\GameStates\\FlipFirstCardState.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:05:56.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "InputManager.cs",
-              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Managers\\InputManager.cs",
-              "RelativeDocumentMoniker": "CardMatchingGame\\Managers\\InputManager.cs",
-              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Managers\\InputManager.cs",
-              "RelativeToolTip": "CardMatchingGame\\Managers\\InputManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T11:23:40.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Managers\\GameManager.cs",
-              "RelativeDocumentMoniker": "CardMatchingGame\\Managers\\GameManager.cs",
-              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Managers\\GameManager.cs",
-              "RelativeToolTip": "CardMatchingGame\\Managers\\GameManager.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA8wCgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T08:08:01.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Card.cs",
-              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Card.cs",
-              "RelativeDocumentMoniker": "CardMatchingGame\\Card.cs",
-              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Card.cs",
-              "RelativeToolTip": "CardMatchingGame\\Card.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowB4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T07:41:27.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Globals.cs",
-              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Globals.cs",
-              "RelativeDocumentMoniker": "CardMatchingGame\\Globals.cs",
-              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Globals.cs",
-              "RelativeToolTip": "CardMatchingGame\\Globals.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T07:32:51.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Board.cs",
-              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Board.cs",
-              "RelativeDocumentMoniker": "CardMatchingGame\\Board.cs",
-              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Board.cs",
-              "RelativeToolTip": "CardMatchingGame\\Board.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAwEAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T07:32:24.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "CardMatchingGame.cs",
               "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\CardMatchingGame.cs",
               "RelativeDocumentMoniker": "CardMatchingGame\\CardMatchingGame.cs",
               "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\CardMatchingGame.cs",
               "RelativeToolTip": "CardMatchingGame\\CardMatchingGame.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwBQAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T07:29:26.604Z",
+              "WhenOpened": "2024-10-01T12:22:41.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CardMatchingGame.csproj",
-              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\CardMatchingGame.csproj",
-              "RelativeDocumentMoniker": "CardMatchingGame\\CardMatchingGame.csproj",
-              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\CardMatchingGame.csproj",
-              "RelativeToolTip": "CardMatchingGame\\CardMatchingGame.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-27T13:36:36.35Z",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Managers\\GameManager.cs",
+              "RelativeDocumentMoniker": "CardMatchingGame\\Managers\\GameManager.cs",
+              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Managers\\GameManager.cs",
+              "RelativeToolTip": "CardMatchingGame\\Managers\\GameManager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADgvy4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T12:09:23.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResolveTurnState.cs",
+              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\ResolveTurnState.cs",
+              "RelativeDocumentMoniker": "CardMatchingGame\\GameStates\\ResolveTurnState.cs",
+              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\ResolveTurnState.cs",
+              "RelativeToolTip": "CardMatchingGame\\GameStates\\ResolveTurnState.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T11:54:16.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FlipFirstCardState.cs",
+              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\FlipFirstCardState.cs",
+              "RelativeDocumentMoniker": "CardMatchingGame\\GameStates\\FlipFirstCardState.cs",
+              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\FlipFirstCardState.cs",
+              "RelativeToolTip": "CardMatchingGame\\GameStates\\FlipFirstCardState.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T11:46:31.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayState.cs",
+              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\PlayState.cs",
+              "RelativeDocumentMoniker": "CardMatchingGame\\GameStates\\PlayState.cs",
+              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\GameStates\\PlayState.cs",
+              "RelativeToolTip": "CardMatchingGame\\GameStates\\PlayState.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T11:37:18.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Card.cs",
+              "RelativeDocumentMoniker": "CardMatchingGame\\Card.cs",
+              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Card.cs",
+              "RelativeToolTip": "CardMatchingGame\\Card.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwEoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T07:35:12.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Managers\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "CardMatchingGame\\Managers\\ScoreManager.cs",
+              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Managers\\ScoreManager.cs",
+              "RelativeToolTip": "CardMatchingGame\\Managers\\ScoreManager.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAkwEIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:15:33.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Board.cs",
+              "RelativeDocumentMoniker": "CardMatchingGame\\Board.cs",
+              "ToolTip": "C:\\Kod\\monogame_kodlarim\\card_matching_game\\CardMatchingGame\\CardMatchingGame\\Board.cs",
+              "RelativeToolTip": "CardMatchingGame\\Board.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAADgv00AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T07:36:43.522Z",
               "EditorCaption": ""
             }
           ]

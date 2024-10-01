@@ -11,6 +11,7 @@ namespace CardMatchingGame.GameStates
     {
         public override void Update(GameManager gameManager)
         {
+            base.Update(gameManager);
             if (InputManager.MouseClicked)
             {
                 if (gameManager.FirstCardSelected.ID == gameManager.SecondCardSelected.ID)
